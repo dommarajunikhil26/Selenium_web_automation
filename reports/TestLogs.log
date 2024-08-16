@@ -1,0 +1,10 @@
+15/08/24 07:48:16 PM Thursday - LoginPage - INFO : Displayed element with LocatorType: css_selector and LocatorValue: div[class="login_logo"]
+15/08/24 07:48:16 PM Thursday - LoginPage - INFO : Got element with LocatorType: xpath and LocatorValue: //div[@id='login_credentials']
+15/08/24 07:48:16 PM Thursday - LoginPage - INFO : Usernames: ['standard_user', 'locked_out_user', 'problem_user', 'performance_glitch_user', 'error_user', 'visual_user']
+15/08/24 07:48:16 PM Thursday - LoginPage - INFO : Selected username: standard_user
+15/08/24 07:48:17 PM Thursday - LoginPage - INFO : Sent text: standard_user to element with LocatorType: id and LocatorValue: user-name
+15/08/24 07:48:17 PM Thursday - LoginPage - INFO : Got element with LocatorType: xpath and LocatorValue: //div[@class='login_password']
+15/08/24 07:48:18 PM Thursday - LoginPage - INFO : Entering the password: secret_sauce
+15/08/24 07:48:18 PM Thursday - LoginPage - INFO : Sent text: secret_sauce to element with LocatorType: id and LocatorValue: password
+15/08/24 07:48:20 PM Thursday - LoginPage - INFO : Clicked on element with LocatorType: name and LocatorValue: login-button
+15/08/24 07:48:20 PM Thursday - LoginPage - INFO : Displayed element with LocatorType: classname and LocatorValue: title

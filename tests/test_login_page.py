@@ -8,15 +8,7 @@ class TestLoginPage(unittest.TestCase):
     @pytest.fixture(autouse=True)
     def set_up_class_objects(self):
         self.lp = LoginPage(self.driver)
-    
-    @pytest.fixture(autouse=True)
-    def set_up_class_objects(self):
-        self.lp = LoginPage(self.driver)
 
     @pytest.mark.run(order=1)
     def test_login(self):
-        self.lp.verifyLoginPage()
-        self.lp.enterUsername()
-        self.lp.enterPassword()
-        self.lp.clickLoginBtn()
         self.lp.verifyLoginSuccess()

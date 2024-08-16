@@ -10,6 +10,10 @@ def setUpClass(request):
     driver = driver_instance.get_driver("chrome")
     bp = BaseClass(driver)
     bp.launchWebPage('https://www.saucedemo.com/')
+    lp = LoginPage(driver)
+    lp.enterUsername()
+    lp.enterPassword()
+    lp.clickLoginBtn()
     if request.cls is not None:
         request.cls.driver = driver
     yield driver

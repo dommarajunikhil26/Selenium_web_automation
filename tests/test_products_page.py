@@ -3,7 +3,7 @@ import pytest
 from pages.productsPage import ProductsPage
 
 @pytest.mark.usefixtures("setUpClass")
-class TestLoginPage(unittest.TestCase):
+class TestProductsPage(unittest.TestCase):
 
     @pytest.fixture(autouse=True)
     def set_up_class_objects(self):

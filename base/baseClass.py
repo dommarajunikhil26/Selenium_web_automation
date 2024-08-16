@@ -43,7 +43,7 @@ class BaseClass:
     
     def waitForElement(self, locatorValue, locatorType="id"):
         locatorByType = self.getLocatorType(locatorType)
-        wait = WebDriverWait(self.driver, 15, 1, ignored_exceptions=[NoSuchElementException, ElementNotSelectableException])
+        wait = WebDriverWait(self.driver, 20, 1, ignored_exceptions=[NoSuchElementException, ElementNotSelectableException])
         element = None
         if locatorByType is None:
             self.log.error(f"Locator Type: {locatorType} does not exist")

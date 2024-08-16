@@ -3,8 +3,6 @@ from selenium.webdriver.chrome.options import Options
 from selenium.webdriver.chrome.service import Service
 import utils.customLogger as cl
 
-
-
 class Driver:
     log = cl.customLogger()
 

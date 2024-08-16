@@ -1,6 +1,7 @@
 import pytest
 from base.baseClass import BaseClass
 from base.driverClass import Driver
+from pages.loginPage import LoginPage
 
 @pytest.fixture(scope='class')
 def setUpClass(request):
@@ -15,8 +16,3 @@ def setUpClass(request):
     driver.quit()
     print("After Class")
 
-@pytest.fixture()
-def setUpMethod():
-    print("Before Method")
-    yield
-    print("After Method")

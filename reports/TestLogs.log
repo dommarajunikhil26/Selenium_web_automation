@@ -1,10 +1,216 @@
-15/08/24 07:48:16 PM Thursday - LoginPage - INFO : Displayed element with LocatorType: css_selector and LocatorValue: div[class="login_logo"]
-15/08/24 07:48:16 PM Thursday - LoginPage - INFO : Got element with LocatorType: xpath and LocatorValue: //div[@id='login_credentials']
-15/08/24 07:48:16 PM Thursday - LoginPage - INFO : Usernames: ['standard_user', 'locked_out_user', 'problem_user', 'performance_glitch_user', 'error_user', 'visual_user']
-15/08/24 07:48:16 PM Thursday - LoginPage - INFO : Selected username: standard_user
-15/08/24 07:48:17 PM Thursday - LoginPage - INFO : Sent text: standard_user to element with LocatorType: id and LocatorValue: user-name
-15/08/24 07:48:17 PM Thursday - LoginPage - INFO : Got element with LocatorType: xpath and LocatorValue: //div[@class='login_password']
-15/08/24 07:48:18 PM Thursday - LoginPage - INFO : Entering the password: secret_sauce
-15/08/24 07:48:18 PM Thursday - LoginPage - INFO : Sent text: secret_sauce to element with LocatorType: id and LocatorValue: password
-15/08/24 07:48:20 PM Thursday - LoginPage - INFO : Clicked on element with LocatorType: name and LocatorValue: login-button
-15/08/24 07:48:20 PM Thursday - LoginPage - INFO : Displayed element with LocatorType: classname and LocatorValue: title
+16/08/24 08:15:06 AM Friday - LoginPage - INFO : Displayed element with LocatorType: css_selector and Loca16/08/24 08:15:16 AM Friday - BaseClass - INFO : Got element with LocatorType: classname and LocatorValue: inventory_item
+16/08/24 08:15:17 AM Friday - BaseClass - INFO : Products:
+16/08/24 08:15:17 AM Friday - BaseClass - INFO : Sauce Labs Backpack: $29.99
+16/08/24 08:15:17 AM Friday - BaseClass - INFO : Sauce Labs Bike Light: $9.99
+16/08/24 08:15:17 AM Friday - BaseClass - INFO : Sauce Labs Bolt T-Shirt: $15.99
+16/08/24 08:15:17 AM Friday - BaseClass - INFO : Sauce Labs Fleece Jacket: $49.99
+16/08/24 08:15:17 AM Friday - BaseClass - INFO : Sauce Labs Onesie: $7.99
+16/08/24 08:15:17 AM Friday - BaseClass - INFO : Test.allTheThings() T-Shirt (Red): $15.99
+catorValue: //div[@class='login_password']
+16/08/24 08:15:07 AM Friday - LoginPage - INFO : Entering the password: secret_sauce
+16/08/24 08:15:08 AM Friday - LoginPage - INFO : Sent text: secret_sauce to element with LocatorType: id and LocatorValue: password
+16/08/24 08:15:16 AM Friday - LoginPage - INFO : Clicked on element with LocatorType: name and LocatorValue: login-button
+16/08/24 08:15:16 AM Friday - LoginPage - INFO : Displayed element with LocatorType: classname and LocatorValue: title
+16/08/24 08:16:05 AM Friday - Driver - INFO : Initializing Chrome driver
+16/08/24 08:16:07 AM Friday - BaseClass - INFO : Opened the web page with url: https://www.saucedemo.com/
+16/08/24 08:16:08 AM Friday - LoginPage - INFO : Displayed element with LocatorType: css_selector and LocatorValue: div[class="login_logo"]
+16/08/24 08:16:08 AM Friday - LoginPage - INFO : Got element with LocatorType: xpath and LocatorValue: //div[@id='login_credentials']
+16/08/24 08:16:08 AM Friday - LoginPage - INFO : Usernames: ['standard_user', 'locked_out_user', 'problem_user', 'performance_glitch_user', 'error_user', 'visual_user']
+16/08/24 08:16:08 AM Friday - LoginPage - INFO : Selected username: error_user
+16/08/24 08:16:09 AM Friday - LoginPage - INFO : Sent text: error_user to element with LocatorType: id and LocatorValue: user-name
+16/08/24 08:16:09 AM Friday - LoginPage - INFO : Got element with LocatorType: xpath and LocatorValue: //div[@class='login_password']
+16/08/24 08:16:09 AM Friday - LoginPage - INFO : Entering the password: secret_sauce
+16/08/24 08:16:10 AM Friday - LoginPage - INFO : Sent text: secret_sauce to element with LocatorType: id and LocatorValue: password
+16/08/24 08:16:12 AM Friday - LoginPage - INFO : Clicked on element with LocatorType: name and LocatorValue: login-button
+16/08/24 08:16:12 AM Friday - LoginPage - INFO : Displayed element with LocatorType: classname and LocatorValue: title
+16/08/24 08:16:12 AM Friday - BaseClass - INFO : Got element with LocatorType: classname and LocatorValue: inventory_item
+16/08/24 08:16:12 AM Friday - BaseClass - INFO : Products:
+16/08/24 08:16:12 AM Friday - BaseClass - INFO : Sauce Labs Backpack: $29.99
+16/08/24 08:16:12 AM Friday - BaseClass - INFO : Sauce Labs Bike Light: $9.99
+16/08/24 08:16:12 AM Friday - BaseClass - INFO : Sauce Labs Bolt T-Shirt: $15.99
+16/08/24 08:16:12 AM Friday - BaseClass - INFO : Sauce Labs Fleece Jacket: $49.99
+16/08/24 08:16:12 AM Friday - BaseClass - INFO : Sauce Labs Onesie: $7.99
+16/08/24 08:16:12 AM Friday - BaseClass - INFO : Test.allTheThings() T-Shirt (Red): $15.99
+16/08/24 09:40:17 AM Friday - Driver - INFO : Initializing Chrome driver
+16/08/24 09:40:21 AM Friday - BaseClass - INFO : Opened the web page with url: https://www.saucedemo.com/
+16/08/24 09:40:22 AM Friday - LoginPage - INFO : Got element with LocatorType: xpath and LocatorValue: //div[@id='login_credentials']
+16/08/24 09:40:22 AM Friday - LoginPage - INFO : Usernames: ['standard_user', 'locked_out_user', 'problem_user', 'performance_glitch_user', 'error_user', 'visual_user']
+16/08/24 09:40:22 AM Friday - LoginPage - INFO : Selected username: visual_user
+16/08/24 09:40:24 AM Friday - LoginPage - INFO : Sent text: visual_user to element with LocatorType: id and LocatorValue: user-name
+16/08/24 09:40:24 AM Friday - LoginPage - INFO : Got element with LocatorType: xpath and LocatorValue: //div[@class='login_password']
+16/08/24 09:40:24 AM Friday - LoginPage - INFO : Entering the password: secret_sauce
+16/08/24 09:40:25 AM Friday - LoginPage - INFO : Sent text: secret_sauce to element with LocatorType: id and LocatorValue: password
+16/08/24 09:40:27 AM Friday - LoginPage - INFO : Clicked on element with LocatorType: name and LocatorValue: login-button
+16/08/24 09:40:28 AM Friday - LoginPage - INFO : Displayed element with LocatorType: classname and LocatorValue: title
+16/08/24 09:40:43 AM Friday - LoginPage - ERROR : Not able to display element with LocatorType: css_selector and LocatorValue: div[class="login_logo"]
+16/08/24 09:40:43 AM Friday - LoginPage - ERROR : The following exception occurred: Message: 
+Stacktrace:
+0   chromedriver                        0x0000000102d210b8 cxxbridge1$str$ptr + 1887276
+1   chromedriver                        0x0000000102d19794 cxxbridge1$str$ptr + 1856264
+2   chromedriver                        0x000000010292882c cxxbridge1$string$len + 88524
+3   chromedriver                        0x000000010296c834 cxxbridge1$string$len + 367060
+4   chromedriver                        0x00000001029a448c cxxbridge1$string$len + 595500
+5   chromedriver                        0x0000000102961474 cxxbridge1$string$len + 321044
+6   chromedriver                        0x00000001029620e4 cxxbridge1$string$len + 324228
+7   chromedriver                        0x0000000102ce8a9c cxxbridge1$str$ptr + 1656336
+8   chromedriver                        0x0000000102ced4f8 cxxbridge1$str$ptr + 1675372
+9   chromedriver                        0x0000000102cce980 cxxbridge1$str$ptr + 1549556
+10  chromedriver                        0x0000000102cedca8 cxxbridge1$str$ptr + 1677340
+11  chromedriver                        0x0000000102cc0690 cxxbridge1$str$ptr + 1491460
+12  chromedriver                        0x0000000102d0aaf0 cxxbridge1$str$ptr + 1795684
+13  chromedriver                        0x0000000102d0ac6c cxxbridge1$str$ptr + 1796064
+14  chromedriver                        0x0000000102d193c8 cxxbridge1$str$ptr + 1855292
+15  libsystem_pthread.dylib             0x0000000180fe5f94 _pthread_start + 136
+16  libsystem_pthread.dylib             0x0000000180fe0d34 thread_start + 8
+
+16/08/24 09:40:48 AM Friday - Driver - INFO : Initializing Chrome driver
+16/08/24 09:40:51 AM Friday - BaseClass - INFO : Opened the web page with url: https://www.saucedemo.com/
+16/08/24 09:40:51 AM Friday - LoginPage - INFO : Got element with LocatorType: xpath and LocatorValue: //div[@id='login_credentials']
+16/08/24 09:40:52 AM Friday - LoginPage - INFO : Usernames: ['standard_user', 'locked_out_user', 'problem_user', 'performance_glitch_user', 'error_user', 'visual_user']
+16/08/24 09:40:52 AM Friday - LoginPage - INFO : Selected username: performance_glitch_user
+16/08/24 09:40:53 AM Friday - LoginPage - INFO : Sent text: performance_glitch_user to element with LocatorType: id and LocatorValue: user-name
+16/08/24 09:40:53 AM Friday - LoginPage - INFO : Got element with LocatorType: xpath and LocatorValue: //div[@class='login_password']
+16/08/24 09:40:53 AM Friday - LoginPage - INFO : Entering the password: secret_sauce
+16/08/24 09:40:54 AM Friday - LoginPage - INFO : Sent text: secret_sauce to element with LocatorType: id and LocatorValue: password
+16/08/24 09:41:03 AM Friday - LoginPage - INFO : Clicked on element with LocatorType: name and LocatorValue: login-button
+16/08/24 09:41:04 AM Friday - LoginPage - INFO : Displayed element with LocatorType: classname and LocatorValue: title
+16/08/24 09:41:04 AM Friday - BaseClass - INFO : Got element with LocatorType: classname and LocatorValue: inventory_item
+16/08/24 09:41:04 AM Friday - BaseClass - INFO : Products:
+16/08/24 09:41:04 AM Friday - BaseClass - INFO : Sauce Labs Backpack: $29.99
+16/08/24 09:41:04 AM Friday - BaseClass - INFO : Sauce Labs Bike Light: $9.99
+16/08/24 09:41:04 AM Friday - BaseClass - INFO : Sauce Labs Bolt T-Shirt: $15.99
+16/08/24 09:41:04 AM Friday - BaseClass - INFO : Sauce Labs Fleece Jacket: $49.99
+16/08/24 09:41:04 AM Friday - BaseClass - INFO : Sauce Labs Onesie: $7.99
+16/08/24 09:41:04 AM Friday - BaseClass - INFO : Test.allTheThings() T-Shirt (Red): $15.99
+16/08/24 09:41:47 AM Friday - Driver - INFO : Initializing Chrome driver
+16/08/24 09:41:51 AM Friday - BaseClass - INFO : Opened the web page with url: https://www.saucedemo.com/
+16/08/24 09:41:52 AM Friday - LoginPage - INFO : Got element with LocatorType: xpath and LocatorValue: //div[@id='login_credentials']
+16/08/24 09:41:52 AM Friday - LoginPage - INFO : Usernames: ['standard_user', 'locked_out_user', 'problem_user', 'performance_glitch_user', 'error_user', 'visual_user']
+16/08/24 09:41:52 AM Friday - LoginPage - INFO : Selected username: standard_user
+16/08/24 09:41:53 AM Friday - LoginPage - INFO : Sent text: standard_user to element with LocatorType: id and LocatorValue: user-name
+16/08/24 09:41:53 AM Friday - LoginPage - INFO : Got element with LocatorType: xpath and LocatorValue: //div[@class='login_password']
+16/08/24 09:41:54 AM Friday - LoginPage - INFO : Entering the password: secret_sauce
+16/08/24 09:41:55 AM Friday - LoginPage - INFO : Sent text: secret_sauce to element with LocatorType: id and LocatorValue: password
+16/08/24 09:41:58 AM Friday - LoginPage - INFO : Clicked on element with LocatorType: name and LocatorValue: login-button
+16/08/24 09:41:58 AM Friday - LoginPage - INFO : Displayed element with LocatorType: classname and LocatorValue: title
+16/08/24 09:42:13 AM Friday - LoginPage - ERROR : Not able to display element with LocatorType: css_selector and LocatorValue: div[class="login_logo"]
+16/08/24 09:42:13 AM Friday - LoginPage - ERROR : The following exception occurred: Message: 
+Stacktrace:
+0   chromedriver                        0x0000000104c750b8 cxxbridge1$str$ptr + 1887276
+1   chromedriver                        0x0000000104c6d794 cxxbridge1$str$ptr + 1856264
+2   chromedriver                        0x000000010487c82c cxxbridge1$string$len + 88524
+3   chromedriver                        0x00000001048c0834 cxxbridge1$string$len + 367060
+4   chromedriver                        0x00000001048f848c cxxbridge1$string$len + 595500
+5   chromedriver                        0x00000001048b5474 cxxbridge1$string$len + 321044
+6   chromedriver                        0x00000001048b60e4 cxxbridge1$string$len + 324228
+7   chromedriver                        0x0000000104c3ca9c cxxbridge1$str$ptr + 1656336
+8   chromedriver                        0x0000000104c414f8 cxxbridge1$str$ptr + 1675372
+9   chromedriver                        0x0000000104c22980 cxxbridge1$str$ptr + 1549556
+10  chromedriver                        0x0000000104c41ca8 cxxbridge1$str$ptr + 1677340
+11  chromedriver                        0x0000000104c14690 cxxbridge1$str$ptr + 1491460
+12  chromedriver                        0x0000000104c5eaf0 cxxbridge1$str$ptr + 1795684
+13  chromedriver                        0x0000000104c5ec6c cxxbridge1$str$ptr + 1796064
+14  chromedriver                        0x0000000104c6d3c8 cxxbridge1$str$ptr + 1855292
+15  libsystem_pthread.dylib             0x0000000180fe5f94 _pthread_start + 136
+16  libsystem_pthread.dylib             0x0000000180fe0d34 thread_start + 8
+
+16/08/24 09:42:18 AM Friday - Driver - INFO : Initializing Chrome driver
+16/08/24 09:42:21 AM Friday - BaseClass - INFO : Opened the web page with url: https://www.saucedemo.com/
+16/08/24 09:42:22 AM Friday - LoginPage - INFO : Got element with LocatorType: xpath and LocatorValue: //div[@id='login_credentials']
+16/08/24 09:42:22 AM Friday - LoginPage - INFO : Usernames: ['standard_user', 'locked_out_user', 'problem_user', 'performance_glitch_user', 'error_user', 'visual_user']
+16/08/24 09:42:22 AM Friday - LoginPage - INFO : Selected username: standard_user
+16/08/24 09:42:23 AM Friday - LoginPage - INFO : Sent text: standard_user to element with LocatorType: id and LocatorValue: user-name
+16/08/24 09:42:23 AM Friday - LoginPage - INFO : Got element with LocatorType: xpath and LocatorValue: //div[@class='login_password']
+16/08/24 09:42:23 AM Friday - LoginPage - INFO : Entering the password: secret_sauce
+16/08/24 09:42:24 AM Friday - LoginPage - INFO : Sent text: secret_sauce to element with LocatorType: id and LocatorValue: password
+16/08/24 09:42:27 AM Friday - LoginPage - INFO : Clicked on element with LocatorType: name and LocatorValue: login-button
+16/08/24 09:42:27 AM Friday - LoginPage - INFO : Displayed element with LocatorType: classname and LocatorValue: title
+16/08/24 09:42:27 AM Friday - BaseClass - INFO : Got element with LocatorType: classname and LocatorValue: inventory_item
+16/08/24 09:42:28 AM Friday - BaseClass - INFO : Products:
+16/08/24 09:42:28 AM Friday - BaseClass - INFO : Sauce Labs Backpack: $29.99
+16/08/24 09:42:28 AM Friday - BaseClass - INFO : Sauce Labs Bike Light: $9.99
+16/08/24 09:42:28 AM Friday - BaseClass - INFO : Sauce Labs Bolt T-Shirt: $15.99
+16/08/24 09:42:28 AM Friday - BaseClass - INFO : Sauce Labs Fleece Jacket: $49.99
+16/08/24 09:42:28 AM Friday - BaseClass - INFO : Sauce Labs Onesie: $7.99
+16/08/24 09:42:28 AM Friday - BaseClass - INFO : Test.allTheThings() T-Shirt (Red): $15.99
+16/08/24 09:44:30 AM Friday - Driver - INFO : Initializing Chrome driver
+16/08/24 09:44:34 AM Friday - BaseClass - INFO : Opened the web page with url: https://www.saucedemo.com/
+16/08/24 09:44:35 AM Friday - LoginPage - INFO : Got element with LocatorType: xpath and LocatorValue: //div[@id='login_credentials']
+16/08/24 09:44:35 AM Friday - LoginPage - INFO : Usernames: ['standard_user', 'locked_out_user', 'problem_user', 'performance_glitch_user', 'error_user', 'visual_user']
+16/08/24 09:44:35 AM Friday - LoginPage - INFO : Selected username: standard_user
+16/08/24 09:44:37 AM Friday - LoginPage - INFO : Sent text: standard_user to element with LocatorType: id and LocatorValue: user-name
+16/08/24 09:44:37 AM Friday - LoginPage - INFO : Got element with LocatorType: xpath and LocatorValue: //div[@class='login_password']
+16/08/24 09:44:37 AM Friday - LoginPage - INFO : Entering the password: secret_sauce
+16/08/24 09:44:38 AM Friday - LoginPage - INFO : Sent text: secret_sauce to element with LocatorType: id and LocatorValue: password
+16/08/24 09:44:41 AM Friday - LoginPage - INFO : Clicked on element with LocatorType: name and LocatorValue: login-button
+16/08/24 09:44:41 AM Friday - LoginPage - INFO : Displayed element with LocatorType: classname and LocatorValue: title
+16/08/24 09:44:57 AM Friday - LoginPage - ERROR : Not able to display element with LocatorType: css_selector and LocatorValue: div[class="login_logo"]
+16/08/24 09:44:57 AM Friday - LoginPage - ERROR : The following exception occurred: Message: 
+Stacktrace:
+0   chromedriver                        0x0000000100d0d0b8 cxxbridge1$str$ptr + 1887276
+1   chromedriver                        0x0000000100d05794 cxxbridge1$str$ptr + 1856264
+2   chromedriver                        0x000000010091482c cxxbridge1$string$len + 88524
+3   chromedriver                        0x0000000100958834 cxxbridge1$string$len + 367060
+4   chromedriver                        0x000000010099048c cxxbridge1$string$len + 595500
+5   chromedriver                        0x000000010094d474 cxxbridge1$string$len + 321044
+6   chromedriver                        0x000000010094e0e4 cxxbridge1$string$len + 324228
+7   chromedriver                        0x0000000100cd4a9c cxxbridge1$str$ptr + 1656336
+8   chromedriver                        0x0000000100cd94f8 cxxbridge1$str$ptr + 1675372
+9   chromedriver                        0x0000000100cba980 cxxbridge1$str$ptr + 1549556
+10  chromedriver                        0x0000000100cd9ca8 cxxbridge1$str$ptr + 1677340
+11  chromedriver                        0x0000000100cac690 cxxbridge1$str$ptr + 1491460
+12  chromedriver                        0x0000000100cf6af0 cxxbridge1$str$ptr + 1795684
+13  chromedriver                        0x0000000100cf6c6c cxxbridge1$str$ptr + 1796064
+14  chromedriver                        0x0000000100d053c8 cxxbridge1$str$ptr + 1855292
+15  libsystem_pthread.dylib             0x0000000180fe5f94 _pthread_start + 136
+16  libsystem_pthread.dylib             0x0000000180fe0d34 thread_start + 8
+
+16/08/24 09:45:02 AM Friday - Driver - INFO : Initializing Chrome driver
+16/08/24 09:45:05 AM Friday - BaseClass - INFO : Opened the web page with url: https://www.saucedemo.com/
+16/08/24 09:45:05 AM Friday - LoginPage - INFO : Got element with LocatorType: xpath and LocatorValue: //div[@id='login_credentials']
+16/08/24 09:45:05 AM Friday - LoginPage - INFO : Usernames: ['standard_user', 'locked_out_user', 'problem_user', 'performance_glitch_user', 'error_user', 'visual_user']
+16/08/24 09:45:05 AM Friday - LoginPage - INFO : Selected username: standard_user
+16/08/24 09:45:07 AM Friday - LoginPage - INFO : Sent text: standard_user to element with LocatorType: id and LocatorValue: user-name
+16/08/24 09:45:07 AM Friday - LoginPage - INFO : Got element with LocatorType: xpath and LocatorValue: //div[@class='login_password']
+16/08/24 09:45:07 AM Friday - LoginPage - INFO : Entering the password: secret_sauce
+16/08/24 09:45:08 AM Friday - LoginPage - INFO : Sent text: secret_sauce to element with LocatorType: id and LocatorValue: password
+16/08/24 09:45:10 AM Friday - LoginPage - INFO : Clicked on element with LocatorType: name and LocatorValue: login-button
+16/08/24 09:45:11 AM Friday - LoginPage - INFO : Displayed element with LocatorType: classname and LocatorValue: title
+16/08/24 09:45:11 AM Friday - BaseClass - INFO : Got element with LocatorType: classname and LocatorValue: inventory_item
+16/08/24 09:45:11 AM Friday - BaseClass - INFO : Products:
+16/08/24 09:45:11 AM Friday - BaseClass - INFO : Sauce Labs Backpack: $29.99
+16/08/24 09:45:11 AM Friday - BaseClass - INFO : Sauce Labs Bike Light: $9.99
+16/08/24 09:45:11 AM Friday - BaseClass - INFO : Sauce Labs Bolt T-Shirt: $15.99
+16/08/24 09:45:11 AM Friday - BaseClass - INFO : Sauce Labs Fleece Jacket: $49.99
+16/08/24 09:45:11 AM Friday - BaseClass - INFO : Sauce Labs Onesie: $7.99
+16/08/24 09:45:11 AM Friday - BaseClass - INFO : Test.allTheThings() T-Shirt (Red): $15.99
+16/08/24 09:52:00 AM Friday - Driver - INFO : Initializing Chrome driver
+16/08/24 09:52:04 AM Friday - BaseClass - INFO : Opened the web page with url: https://www.saucedemo.com/
+16/08/24 09:52:05 AM Friday - LoginPage - INFO : Displayed element with LocatorType: css_selector and LocatorValue: div[class="login_logo"]
+16/08/24 09:52:05 AM Friday - LoginPage - INFO : Got element with LocatorType: xpath and LocatorValue: //div[@id='login_credentials']
+16/08/24 09:52:05 AM Friday - LoginPage - INFO : Usernames: ['standard_user', 'locked_out_user', 'problem_user', 'performance_glitch_user', 'error_user', 'visual_user']
+16/08/24 09:52:05 AM Friday - LoginPage - INFO : Selected username: standard_user
+16/08/24 09:52:07 AM Friday - LoginPage - INFO : Sent text: standard_user to element with LocatorType: id and LocatorValue: user-name
+16/08/24 09:52:07 AM Friday - LoginPage - INFO : Got element with LocatorType: xpath and LocatorValue: //div[@class='login_password']
+16/08/24 09:52:07 AM Friday - LoginPage - INFO : Entering the password: secret_sauce
+16/08/24 09:52:08 AM Friday - LoginPage - INFO : Sent text: secret_sauce to element with LocatorType: id and LocatorValue: password
+16/08/24 09:52:11 AM Friday - LoginPage - INFO : Clicked on element with LocatorType: name and LocatorValue: login-button
+16/08/24 09:52:11 AM Friday - LoginPage - INFO : Displayed element with LocatorType: classname and LocatorValue: title
+16/08/24 09:52:17 AM Friday - Driver - INFO : Initializing Chrome driver
+16/08/24 09:52:20 AM Friday - BaseClass - INFO : Opened the web page with url: https://www.saucedemo.com/
+16/08/24 09:52:21 AM Friday - LoginPage - INFO : Got element with LocatorType: xpath and LocatorValue: //div[@id='login_credentials']
+16/08/24 09:52:21 AM Friday - LoginPage - INFO : Usernames: ['standard_user', 'locked_out_user', 'problem_user', 'performance_glitch_user', 'error_user', 'visual_user']
+16/08/24 09:52:21 AM Friday - LoginPage - INFO : Selected username: standard_user
+16/08/24 09:52:22 AM Friday - LoginPage - INFO : Sent text: standard_user to element with LocatorType: id and LocatorValue: user-name
+16/08/24 09:52:22 AM Friday - LoginPage - INFO : Got element with LocatorType: xpath and LocatorValue: //div[@class='login_password']
+16/08/24 09:52:22 AM Friday - LoginPage - INFO : Entering the password: secret_sauce
+16/08/24 09:52:23 AM Friday - LoginPage - INFO : Sent text: secret_sauce to element with LocatorType: id and LocatorValue: password
+16/08/24 09:52:27 AM Friday - LoginPage - INFO : Clicked on element with LocatorType: name and LocatorValue: login-button
+16/08/24 09:52:28 AM Friday - BaseClass - INFO : Got element with LocatorType: classname and LocatorValue: inventory_item
+16/08/24 09:52:28 AM Friday - BaseClass - INFO : Products:
+16/08/24 09:52:28 AM Friday - BaseClass - INFO : Sauce Labs Backpack: $29.99
+16/08/24 09:52:28 AM Friday - BaseClass - INFO : Sauce Labs Bike Light: $9.99
+16/08/24 09:52:28 AM Friday - BaseClass - INFO : Sauce Labs Bolt T-Shirt: $15.99
+16/08/24 09:52:28 AM Friday - BaseClass - INFO : Sauce Labs Fleece Jacket: $49.99
+16/08/24 09:52:28 AM Friday - BaseClass - INFO : Sauce Labs Onesie: $7.99
+16/08/24 09:52:28 AM Friday - BaseClass - INFO : Test.allTheThings() T-Shirt (Red): $15.99

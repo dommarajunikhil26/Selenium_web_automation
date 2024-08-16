@@ -18,19 +18,19 @@ class TestProductsPage(unittest.TestCase):
         self.pp.clickCartBtn()
         self.pp.verifyCartPage()
     
-    @pytest.mark.run(order=3)
+    @pytest.mark.run(order=4)
     def test_remove_and_checkout_btn(self):
         self.pp.clickRemoveBtn()
         self.pp.clickCheckoutBtn()
         self.pp.verifyCheckoutInfo() 
     
-    @pytest.mark.run(order=4)
+    @pytest.mark.run(order=5)
     def test_enter_user_details(self):
         self.pp.enterFirstName()
         self.pp.enterLastName()
         self.pp.enterZip()
     
-    @pytest.mark.run(order=5)
+    @pytest.mark.run(order=6)
     def test_verify_order(self):
         self.pp.clickContinue()
         self.pp.clickFinishBtn()

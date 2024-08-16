@@ -1,0 +1,3 @@
+[32mINFO    [0m BaseClass:baseClass.py:71 Sent text: Test to element with LocatorType: id and LocatorValue: first-name
+[32mINFO    [0m BaseClass:baseClass.py:71 Sent text: Name to element with LocatorType: id and LocatorValue: last-name
+[32mINFO    [0m BaseClass:baseClass.py:71 Sent text: 52065 to element with LocatorType: id and LocatorValue: postal-code

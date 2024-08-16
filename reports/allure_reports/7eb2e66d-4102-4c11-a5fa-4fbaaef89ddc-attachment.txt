@@ -1,0 +1,10 @@
+[32mINFO    [0m Driver:driverClass.py:16 Initializing Chrome driver
+[32mINFO    [0m BaseClass:baseClass.py:18 Opened the web page with url: https://www.saucedemo.com/
+[32mINFO    [0m BaseClass:baseClass.py:108 Got element with LocatorType: xpath and LocatorValue: //div[@id='login_credentials']
+[32mINFO    [0m BaseClass:baseClass.py:71 Sent text: standard_user to element with LocatorType: id and LocatorValue: user-name
+[32mINFO    [0m BaseClass:baseClass.py:108 Got element with LocatorType: xpath and LocatorValue: //div[@class='login_password']
+[32mINFO    [0m BaseClass:baseClass.py:71 Sent text: secret_sauce to element with LocatorType: id and LocatorValue: password
+[32mINFO    [0m BaseClass:baseClass.py:61 Clicked on element with LocatorType: name and LocatorValue: login-button
+[32mINFO    [0m BaseClass:baseClass.py:81 Displayed element with LocatorType: classname and LocatorValue: title
+[32mINFO    [0m BaseClass:baseClass.py:61 Clicked on element with LocatorType: id and LocatorValue: react-burger-menu-btn
+[32mINFO    [0m BaseClass:baseClass.py:61 Clicked on element with LocatorType: link_text and LocatorValue: Logout

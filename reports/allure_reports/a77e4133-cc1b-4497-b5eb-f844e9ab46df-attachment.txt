@@ -1,0 +1,5 @@
+[32mINFO    [0m BaseClass:baseClass.py:61 Clicked on element with LocatorType: name and LocatorValue: continue
+[32mINFO    [0m BaseClass:baseClass.py:61 Clicked on element with LocatorType: id and LocatorValue: finish
+[32mINFO    [0m BaseClass:baseClass.py:108 Got element with LocatorType: classname and LocatorValue: complete-header
+[32mINFO    [0m BaseClass:baseClass.py:61 Clicked on element with LocatorType: id and LocatorValue: react-burger-menu-btn
+[32mINFO    [0m BaseClass:baseClass.py:61 Clicked on element with LocatorType: link_text and LocatorValue: Logout

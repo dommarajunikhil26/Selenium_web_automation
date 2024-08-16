@@ -1,0 +1,20 @@
+[32mINFO    [0m Driver:driverClass.py:16 Initializing Chrome driver
+[32mINFO    [0m BaseClass:baseClass.py:18 Opened the web page with url: https://www.saucedemo.com/
+[32mINFO    [0m BaseClass:baseClass.py:108 Got element with LocatorType: xpath and LocatorValue: //div[@id='login_credentials']
+[32mINFO    [0m BaseClass:baseClass.py:71 Sent text: standard_user to element with LocatorType: id and LocatorValue: user-name
+[32mINFO    [0m BaseClass:baseClass.py:108 Got element with LocatorType: xpath and LocatorValue: //div[@class='login_password']
+[32mINFO    [0m BaseClass:baseClass.py:71 Sent text: secret_sauce to element with LocatorType: id and LocatorValue: password
+[32mINFO    [0m BaseClass:baseClass.py:61 Clicked on element with LocatorType: name and LocatorValue: login-button
+[32mINFO    [0m BaseClass:baseClass.py:96 Got element with LocatorType: classname and LocatorValue: inventory_item
+[32mINFO    [0m BaseClass:productsPage.py:32 Located item_name: Sauce Labs Backpack
+[32mINFO    [0m BaseClass:productsPage.py:34 Located item_price: $29.99
+[32mINFO    [0m BaseClass:productsPage.py:32 Located item_name: Sauce Labs Bike Light
+[32mINFO    [0m BaseClass:productsPage.py:34 Located item_price: $9.99
+[32mINFO    [0m BaseClass:productsPage.py:32 Located item_name: Sauce Labs Bolt T-Shirt
+[32mINFO    [0m BaseClass:productsPage.py:34 Located item_price: $15.99
+[32mINFO    [0m BaseClass:productsPage.py:32 Located item_name: Sauce Labs Fleece Jacket
+[32mINFO    [0m BaseClass:productsPage.py:34 Located item_price: $49.99
+[32mINFO    [0m BaseClass:productsPage.py:32 Located item_name: Sauce Labs Onesie
+[32mINFO    [0m BaseClass:productsPage.py:34 Located item_price: $7.99
+[32mINFO    [0m BaseClass:productsPage.py:32 Located item_name: Test.allTheThings() T-Shirt (Red)
+[32mINFO    [0m BaseClass:productsPage.py:34 Located item_price: $15.99

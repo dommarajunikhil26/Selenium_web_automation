@@ -1,0 +1,2 @@
+[32mINFO    [0m BaseClass:baseClass.py:61 Clicked on element with LocatorType: classname and LocatorValue: shopping_cart_link
+[32mINFO    [0m BaseClass:baseClass.py:81 Displayed element with LocatorType: classname and LocatorValue: title

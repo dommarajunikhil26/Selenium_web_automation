@@ -38,8 +38,7 @@ This project is a robust Selenium-based test automation framework designed for w
 
 1. Clone the repository:
    https://github.com/dommarajunikhil26/Selenium_web_automation.git
-
-cd Selenium_web_automation
+   cd Selenium_web_automation
 
 2. Create and activate virtual environment
    python -m venv ven
@@ -56,13 +55,12 @@ python -m unittest discover tests
 This command will discover and run all test cases in the `tests` directory.
 
 To run specific test classes or methods, you can use:
-python -m unittest tests.test_login_page.TestLoginPage or pytest test_login_page.py
-python -m unittest tests.test_products_page.TestProductsPage or pytest test_products_page.py
+pytest test_login_page.py
+pytest test_products_page.py
 
 For more verbose output, add the `-v` flag:
-python -m unittest discover -v tests
-pytest test_login_page.py -v (for individual file)
-pytest test_products_page.py -v (for individual file)
+pytest test_login_page.py -v
+pytest test_products_page.py -v
 
 ## Reporting
 

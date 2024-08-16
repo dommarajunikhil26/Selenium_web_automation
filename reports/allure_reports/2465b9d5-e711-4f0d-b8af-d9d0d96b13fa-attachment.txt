@@ -1,0 +1,3 @@
+[32mINFO    [0m BaseClass:baseClass.py:96 Got element with LocatorType: classname and LocatorValue: cart_item
+[32mINFO    [0m BaseClass:baseClass.py:61 Clicked on element with LocatorType: id and LocatorValue: checkout
+[32mINFO    [0m BaseClass:baseClass.py:81 Displayed element with LocatorType: id and LocatorValue: checkout_info_container

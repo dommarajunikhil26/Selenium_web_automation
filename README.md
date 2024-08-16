@@ -71,7 +71,7 @@ The framework uses Allure for generating detailed test reports. Screenshots are 
 To generate and view Allure reports:
 
 1. Run tests with Allure:
-   pytest --alluredir=/Users/nikhilsai/Desktop/Projects/python_testing/assignment2/reports/allure_reports
+   pytest --alluredir=/path/to/allure_reports
 
 2. Generate the report:
-   allure serve /Users/nikhilsai/Desktop/Projects/python_testing/assignment2/reports/allure_reports
+   allure serve /path/to/allure_reports

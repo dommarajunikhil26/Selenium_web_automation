@@ -60,6 +60,12 @@ For more verbose output, add the `-v` flag:
 pytest test_login_page.py -v
 pytest test_products_page.py -v
 
+## Continuous Integration
+
+This project uses GitHub Actions for Continuous Integration. The test suite is automatically run on every push to the main branch, and the Allure report is deployed to GitHub Pages.
+To view the latest Allure report, visit:
+https://dommarajunikhil26.github.io/Selenium_web_automation/
+
 ## Reporting
 
 The framework uses Allure for generating detailed test reports. Screenshots are automatically captured for failed tests.

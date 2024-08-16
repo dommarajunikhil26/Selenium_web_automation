@@ -17,6 +17,7 @@ def setUpClass(request):
     if request.cls is not None:
         request.cls.driver = driver
     yield driver
+    lp.logout()
     driver.quit()
     print("After Class")
 

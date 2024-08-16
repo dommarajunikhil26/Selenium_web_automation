@@ -15,6 +15,8 @@ class LoginPage(BaseClass):
     _getUsernames = "//div[@id='login_credentials']" # xpath
     _getPassword = "//div[@class='login_password']" # xpath
     _verifyLoginSuccess = "title" # classname
+    _clickSideBar = "react-burger-menu-btn" # id
+    _clickLogoutbtn = "Logout" # Link Text
 
     def verifyLoginPage(self):
         assert self.isElementDisplayed(self._verifyLoginPage, "css_selector")
@@ -39,3 +41,7 @@ class LoginPage(BaseClass):
     def verifyLoginSuccess(self):
         assert self.isElementDisplayed(self._verifyLoginSuccess, "classname")
         cl.allureLogs("Verified User Login")
+    
+    def logout(self):
+        self.clickElement(self._clickSideBar, "id")
+        self.clickElement(self._clickLogoutbtn, "link_text")

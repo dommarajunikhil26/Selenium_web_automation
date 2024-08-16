@@ -439,3 +439,46 @@ Stacktrace:
 16/08/24 04:27:34 PM Friday - BaseClass - INFO : Clicked on element with LocatorType: name and LocatorValue: continue
 16/08/24 04:27:34 PM Friday - BaseClass - INFO : Clicked on element with LocatorType: id and LocatorValue: finish
 16/08/24 04:27:34 PM Friday - BaseClass - INFO : Got element with LocatorType: classname and LocatorValue: complete-header
+16/08/24 04:37:54 PM Friday - Driver - INFO : Initializing Chrome driver
+16/08/24 04:37:57 PM Friday - BaseClass - INFO : Opened the web page with url: https://www.saucedemo.com/
+16/08/24 04:37:58 PM Friday - BaseClass - INFO : Got element with LocatorType: xpath and LocatorValue: //div[@id='login_credentials']
+16/08/24 04:37:59 PM Friday - BaseClass - INFO : Sent text: standard_user to element with LocatorType: id and LocatorValue: user-name
+16/08/24 04:37:59 PM Friday - BaseClass - INFO : Got element with LocatorType: xpath and LocatorValue: //div[@class='login_password']
+16/08/24 04:38:01 PM Friday - BaseClass - INFO : Sent text: secret_sauce to element with LocatorType: id and LocatorValue: password
+16/08/24 04:38:03 PM Friday - BaseClass - INFO : Clicked on element with LocatorType: name and LocatorValue: login-button
+16/08/24 04:38:03 PM Friday - BaseClass - INFO : Displayed element with LocatorType: classname and LocatorValue: title
+16/08/24 04:38:04 PM Friday - BaseClass - INFO : Clicked on element with LocatorType: id and LocatorValue: react-burger-menu-btn
+16/08/24 04:38:07 PM Friday - BaseClass - INFO : Clicked on element with LocatorType: link_text and LocatorValue: Logout
+16/08/24 04:38:13 PM Friday - Driver - INFO : Initializing Chrome driver
+16/08/24 04:38:15 PM Friday - BaseClass - INFO : Opened the web page with url: https://www.saucedemo.com/
+16/08/24 04:38:16 PM Friday - BaseClass - INFO : Got element with LocatorType: xpath and LocatorValue: //div[@id='login_credentials']
+16/08/24 04:38:17 PM Friday - BaseClass - INFO : Sent text: standard_user to element with LocatorType: id and LocatorValue: user-name
+16/08/24 04:38:17 PM Friday - BaseClass - INFO : Got element with LocatorType: xpath and LocatorValue: //div[@class='login_password']
+16/08/24 04:38:18 PM Friday - BaseClass - INFO : Sent text: secret_sauce to element with LocatorType: id and LocatorValue: password
+16/08/24 04:38:20 PM Friday - BaseClass - INFO : Clicked on element with LocatorType: name and LocatorValue: login-button
+16/08/24 04:38:21 PM Friday - BaseClass - INFO : Got element with LocatorType: classname and LocatorValue: inventory_item
+16/08/24 04:38:21 PM Friday - BaseClass - INFO : Located item_name: Sauce Labs Backpack
+16/08/24 04:38:21 PM Friday - BaseClass - INFO : Located item_price: $29.99
+16/08/24 04:38:21 PM Friday - BaseClass - INFO : Located item_name: Sauce Labs Bike Light
+16/08/24 04:38:21 PM Friday - BaseClass - INFO : Located item_price: $9.99
+16/08/24 04:38:22 PM Friday - BaseClass - INFO : Located item_name: Sauce Labs Bolt T-Shirt
+16/08/24 04:38:22 PM Friday - BaseClass - INFO : Located item_price: $15.99
+16/08/24 04:38:22 PM Friday - BaseClass - INFO : Located item_name: Sauce Labs Fleece Jacket
+16/08/24 04:38:22 PM Friday - BaseClass - INFO : Located item_price: $49.99
+16/08/24 04:38:22 PM Friday - BaseClass - INFO : Located item_name: Sauce Labs Onesie
+16/08/24 04:38:22 PM Friday - BaseClass - INFO : Located item_price: $7.99
+16/08/24 04:38:22 PM Friday - BaseClass - INFO : Located item_name: Test.allTheThings() T-Shirt (Red)
+16/08/24 04:38:22 PM Friday - BaseClass - INFO : Located item_price: $15.99
+16/08/24 04:38:23 PM Friday - BaseClass - INFO : Clicked on element with LocatorType: classname and LocatorValue: shopping_cart_link
+16/08/24 04:38:23 PM Friday - BaseClass - INFO : Displayed element with LocatorType: classname and LocatorValue: title
+16/08/24 04:38:23 PM Friday - BaseClass - INFO : Got element with LocatorType: classname and LocatorValue: cart_item
+16/08/24 04:38:24 PM Friday - BaseClass - INFO : Clicked on element with LocatorType: id and LocatorValue: checkout
+16/08/24 04:38:24 PM Friday - BaseClass - INFO : Displayed element with LocatorType: id and LocatorValue: checkout_info_container
+16/08/24 04:38:25 PM Friday - BaseClass - INFO : Sent text: Test to element with LocatorType: id and LocatorValue: first-name
+16/08/24 04:38:28 PM Friday - BaseClass - INFO : Sent text: Name to element with LocatorType: id and LocatorValue: last-name
+16/08/24 04:38:28 PM Friday - BaseClass - INFO : Sent text: 52065 to element with LocatorType: id and LocatorValue: postal-code
+16/08/24 04:38:29 PM Friday - BaseClass - INFO : Clicked on element with LocatorType: name and LocatorValue: continue
+16/08/24 04:38:29 PM Friday - BaseClass - INFO : Clicked on element with LocatorType: id and LocatorValue: finish
+16/08/24 04:38:29 PM Friday - BaseClass - INFO : Got element with LocatorType: classname and LocatorValue: complete-header
+16/08/24 04:38:30 PM Friday - BaseClass - INFO : Clicked on element with LocatorType: id and LocatorValue: react-burger-menu-btn
+16/08/24 04:38:32 PM Friday - BaseClass - INFO : Clicked on element with LocatorType: link_text and LocatorValue: Logout

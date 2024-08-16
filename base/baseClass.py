@@ -1,9 +1,10 @@
-from ast import expr_context
 import utils.customLogger as cl
 from selenium.webdriver.common.by import By
 from selenium.webdriver.support.wait import WebDriverWait
 import selenium.webdriver.support.expected_conditions as EC
 from selenium.common.exceptions import NoSuchElementException, ElementNotSelectableException
+import allure
+from allure_commons.types import AttachmentType 
 
 class BaseClass:
     log = cl.customLogger()
@@ -39,6 +40,7 @@ class BaseClass:
             return By.CSS_SELECTOR
         else:
             self.log.error(f"Locator Type: {locatorType} does not exist")
+            self.takeScreenShot(locatorType)
             return None
     
     def waitForElement(self, locatorValue, locatorType="id"):
@@ -49,6 +51,7 @@ class BaseClass:
             self.log.error(f"Locator Type: {locatorType} does not exist")
         else:
             element = wait.until(EC.presence_of_element_located((locatorByType, locatorValue)))
+            self.takeScreenShot(locatorType)
         return element
 
     def clickElement(self, locatorValue, locatorType="id"):
@@ -59,6 +62,7 @@ class BaseClass:
         except Exception as e:
             self.log.error(f"Not able to click on element with LocatorType: {locatorType} and LocatorValue: {locatorValue}")
             self.log.error(f"The following exception occurred: {e}")
+            self.takeScreenShot(locatorType)
     
     def sendKeys(self, text, locatorValue, locatorType="id"):
         try:
@@ -78,6 +82,7 @@ class BaseClass:
         except Exception as e:
             self.log.error(f"Not able to display element with LocatorType: {locatorType} and LocatorValue: {locatorValue}")
             self.log.error(f"The following exception occurred: {e}")
+            self.takeScreenShot(locatorType)
         return flag
 
     def getElements(self, locatorValue, locatorType="id"):
@@ -89,6 +94,7 @@ class BaseClass:
         else:
             elements = wait.until(EC.presence_of_all_elements_located((locatorByType, locatorValue)))
             self.log.info(f"Got element with LocatorType: {locatorType} and LocatorValue: {locatorValue}")
+            self.takeScreenShot(locatorType)
         return elements
 
     def getElement(self, locatorValue, locatorType="id"):
@@ -100,4 +106,8 @@ class BaseClass:
         else:
             element = wait.until(EC.presence_of_element_located((locatorByType, locatorValue)))
             self.log.info(f"Got element with LocatorType: {locatorType} and LocatorValue: {locatorValue}")
+            self.takeScreenShot(locatorType)
         return element
+    
+    def takeScreenShot(self, text):
+        allure.attach(self.driver.get_screenshot_as_png(), name=text, attachment_type=AttachmentType.PNG)

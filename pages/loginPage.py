@@ -3,7 +3,6 @@ import utils.customLogger as cl
 import random
 
 class LoginPage(BaseClass):
-    log = cl.customLogger()
 
     def __init__(self, driver):
         super().__init__(driver)
@@ -15,7 +14,7 @@ class LoginPage(BaseClass):
     _clickLoginBtn = "login-button" # name
     _getUsernames = "//div[@id='login_credentials']" # xpath
     _getPassword = "//div[@class='login_password']" # xpath
-    _verifyLoginSuccess = "title" # class name
+    _verifyLoginSuccess = "title" # classname
 
     def verifyLoginPage(self):
         assert self.isElementDisplayed(self._verifyLoginPage, "css_selector")
@@ -23,20 +22,20 @@ class LoginPage(BaseClass):
     def enterUsername(self):
         username_element = self.getElement(self._getUsernames, "xpath")
         usernames = username_element.text.splitlines()[1:]  
-        self.log.info("Usernames: %s", usernames)
         username = usernames[0]
-        self.log.info("Selected username: %s", username)
         self.sendKeys(username, self._enterUsername, "id")
+        cl.allureLogs(f"Entered username: {username}")
 
     def enterPassword(self):
         password_element = self.getElement("//div[@class='login_password']", "xpath")
         password = password_element.text.splitlines()[1]
-        self.log.info("Entering the password: %s", password)
         self.sendKeys(password, self._enterPassword, "id")
+        cl.allureLogs(f"Entered password: {password}")
     
     def clickLoginBtn(self):
         self.clickElement(self._clickLoginBtn, "name")
-    
+        cl.allureLogs("Clicked on Login Button")
+
     def verifyLoginSuccess(self):
         assert self.isElementDisplayed(self._verifyLoginSuccess, "classname")
-    
+        cl.allureLogs("Verified User Login")

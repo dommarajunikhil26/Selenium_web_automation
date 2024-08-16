@@ -49,14 +49,12 @@ This project is a robust Selenium-based test automation framework designed for w
 
 ### Running the Test Suite
 
-To run the complete regression test suite, use the following command from the project root directory:
-python -m unittest discover tests
-
-This command will discover and run all test cases in the `tests` directory.
-
 To run specific test classes or methods, you can use:
 pytest test_login_page.py
 pytest test_products_page.py
+
+To run all test classes and methods, you can use:
+pytest -s -v
 
 For more verbose output, add the `-v` flag:
 pytest test_login_page.py -v

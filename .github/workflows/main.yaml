@@ -2,7 +2,7 @@ name: Selenium Web Automation Tests
 
 on:
   push:
-    branches: [feature/test]
+    branches: [main]
 
 jobs:
   build:
@@ -46,5 +46,6 @@ jobs:
         if: always()
         uses: peaceiris/actions-gh-pages@v2
         env:
+          PERSONAL_TOKEN: ${{ secrets.SECRET_TOKEN }}
           PUBLISH_BRANCH: gh-pages
           PUBLISH_DIR: allure-history

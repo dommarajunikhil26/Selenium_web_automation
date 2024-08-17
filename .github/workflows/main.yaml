@@ -2,7 +2,7 @@ name: Selenium Web Automation Tests
 
 on:
   push:
-    branches: [main]
+    branches: [feature/test]
 
 jobs:
   build:

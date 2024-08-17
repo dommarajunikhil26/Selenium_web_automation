@@ -2,3 +2,4 @@
 __pycache__
 .pytest_cache
 tests/__pycache__/test_products_page.cpython-39.pyc
+/reports/allure_reports/*

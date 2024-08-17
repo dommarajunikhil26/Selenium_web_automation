@@ -41,6 +41,10 @@ jobs:
           sudo mv chromedriver /usr/local/bin/chromedriver
           sudo chmod +x /usr/local/bin/chromedriver
 
+      - name: Set DISPLAY environment variable
+        run: |
+          export DISPLAY=:99
+
       - name: Run tests
         run: |
           py.test --alluredir=reports/allure_reports -s -v tests/TestSuite.py

@@ -1,3 +1,4 @@
+import shutil
 from selenium import webdriver
 from selenium.webdriver.chrome.options import Options
 from selenium.webdriver.chrome.service import Service
@@ -11,7 +12,10 @@ class Driver:
         if platform == "chrome":
             chrome_options = Options()
             chrome_options.add_argument('--start-maximized')
-            chrome_service = Service('/opt/homebrew/bin/chromedriver')
+            chrome_service_path = shutil.which('chromedriver')
+            if chrome_service_path is None:
+                raise ValueError("Chromedriver not found in PATH")
+            chrome_service = Service(chrome_service_path)
             driver = webdriver.Chrome(options=chrome_options, service=chrome_service)
             self.log.info("Initializing Chrome driver")
         elif platform == "safari":

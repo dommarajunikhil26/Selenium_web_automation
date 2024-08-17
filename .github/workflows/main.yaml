@@ -26,6 +26,11 @@ jobs:
         run: |
           echo "PYTHONPATH=$PYTHONPATH:$(pwd)" >> $GITHUB_ENV
 
+      - name: Set up ChromeDriver
+        uses: nanasess/setup-chromedriver@v1
+        with:
+          chromedriver-version: latest
+
       - name: Run tests
         run: |
           py.test --alluredir=reports/allure_reports -s -v tests/TestSuite.py

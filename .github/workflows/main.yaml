@@ -28,7 +28,7 @@ jobs:
 
       - name: Run tests
         run: |
-          pytest --alluredir=reports/allure_reports TestSuite.py
+          pytest --alluredir=reports/allure_reports -s -v tests/TestSuite.py
 
       - name: Upload Allure report
         uses: actions/upload-artifact@v2

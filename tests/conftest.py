@@ -2,6 +2,7 @@ import pytest
 from base.baseClass import BaseClass
 from base.driverClass import Driver
 from pages.loginPage import LoginPage
+from pages.productsPage import ProductsPage
 
 @pytest.fixture(scope='class')
 def setUpClass(request):
@@ -14,8 +15,11 @@ def setUpClass(request):
     lp.enterUsername()
     lp.enterPassword()
     lp.clickLoginBtn()
+    pp = ProductsPage(driver)
     if request.cls is not None:
         request.cls.driver = driver
+        request.cls.lp = lp
+        request.cls.pp = pp
     yield driver
     lp.logout()
     driver.quit()

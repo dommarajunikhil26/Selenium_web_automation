@@ -22,6 +22,10 @@ jobs:
           python -m pip install --upgrade pip
           pip install pytest allure-pytest
 
+      - name: Set PYTHONPATH environment variable
+        run: |
+          echo "PYTHONPATH=$PYTHONPATH:$(pwd)" >> $GITHUB_ENV
+
       - name: Run tests
         run: |
           pytest --alluredir=reports/allure_reports TestSuite.py
